@@ -9,13 +9,13 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.8+-orange.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx/xxxxxx-blue.svg)](https://doi.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.1109/TETCI.2026.3654383-blue.svg)](https://ieeexplore.ieee.org/document/11364255)
 
 </div>
 
 ## 📖 Overview
 
-The officieal implementation of the paper: **CoWS: Self-Supervised Representation Pre-Training for Cross-Machine Fault Diagnosis**, which has been accepted by *IEEE Transactions on Emerging Topics in Computational Intelligence*.
+The officieal implementation of the paper: [**CoWS: Self-Supervised Representation Pre-Training for Cross-Machine Fault Diagnosis**](https://ieeexplore.ieee.org/document/11364255), which has been published by *IEEE Transactions on Emerging Topics in Computational Intelligence*.
 
 **CoWS (Consistent Wave and Spectrogram)** is a novel self-supervised learning method for mechanical fault diagnosis that leverages the consistency between time domain waveforms and time-frequency domain spectrograms. By learning consistent representations across these two complementary views, CoWS achieves superior performance in bearing fault diagnosis tasks.
 
@@ -107,7 +107,16 @@ python Transfer.py --tgt_data 'HUSTBearing'--tgt_load 0 --num_train 10
 If you find CoWS useful in your research, please consider citing:
 
 ```bibtex
-
+@ARTICLE{11364255,
+  author={Chen, Xiaohan and Yang, Rui and Xue, Yihao and Wang, Zidong},
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence}, 
+  title={CoWS: Self-Supervised Representation Pre-Training for Cross-Machine Fault Diagnosis}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-13},
+  keywords={Fault diagnosis;Data models;Cows;Feature extraction;Spectrogram;Machinery;Deep learning;Training;Knowledge transfer;Brain modeling;Self-supervised learning;pre-training model;knowledge transfer;fault diagnosis},
+  doi={10.1109/TETCI.2026.3654383}}
 ```
 
 ## 📝 License
